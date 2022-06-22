@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header class="header">
+        <h1 id="heading">TODO LIST</h1>
+    </header>
+    <section class="parent-section">
+        <form class="form-section">
+            <div class="err-div">
+                   <h4>Something went wrong</h4>
+            </div>
+            <div>
+                <input type="text" placeholder="Enter task" id="form-inp" />
+                <button id="sub-btn">Add</button>
+            </div>
+        </form>
+        <ul class="list-items"></ul>
+    </section>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>

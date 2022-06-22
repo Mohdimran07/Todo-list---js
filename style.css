@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('background.jpg');
+}
+.header{
+    margin: auto;
+    margin-top: 10px;
+    width: 70%;
+    background-color: black;
+    color: white;
+    text-shadow: 2px 3px #888888;
+    text-align: center;
+    opacity: 0.95;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 4px;
+    border-radius: 10px;
+   /* box-shadow: 5px 5px rgba(193, 189, 189, 0.9); */
+}
+
+#heading{
+    padding:3px;
+}
+
+.parent-section{
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(6, 6, 6);
+    opacity: 0.95;
+    width: 70%;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px rgba(64, 64, 64, 0.8); */
+}
+
+.form-section{
+    /* border: 2px solid white; */
+    padding: 10px;
+}
+
+#form-inp{
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+#sub-btn{
+    /* background-image: url('add.jpg');
+    background-repeat: no-repeat; */
+    font-family:cursive;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    /* padding: 2px; */
+    text-align: center;
+    font-weight: bold;
+    /* font-style: italic; */
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px rgb(151, 151, 151,0.5);
+    margin-top: 6px;
+}
+
+.list-items{
+    /* border:2px solid white; */
+    padding: 5px;
+    text-decoration: none;
+    background-color: black !important;
+}
+
+.item{
+    /* list-style: none; */
+    color:black;
+    font-family: cursive;
+    list-style: none;
+    background-color: seashell;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+.edit-btn{
+    background-color: yellow;
+    float: right;
+    height: 30px;
+    width: 50px;
+    color: #000;
+}
+
+.delete-btn{
+    background-color: red;
+    float: right;
+    height: 30px;
+    width: 50px;
+    color: white;
+}
+
+.change-btn{
+    background-color: rgb(28, 193, 193);
+    margin-right: 5px;
+}
+
+.cancel-btn{
+    background-color: rgb(0, 68, 255);
+    margin-right: 5px;
+}
+
+.editText{
+    height:20px;
+    width:200px;
+    font-family: cursive;
+    font-size: 18px;
+    position: relative;
+    margin-right: 5px;
+    z-index: 2;
+}
+
+.err-div{
+    background-color: white;
+    color: red;
+    height: 30px;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: none;
+}
